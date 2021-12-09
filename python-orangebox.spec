@@ -21,7 +21,7 @@
 Name:           python-orangebox
 Version:        0.2.0
 Release:        0
-License:        GPLv3+
+License:        GPL-3.0-or-later
 Summary:        Betaflight blackbox flight recorder parser
 Group:          Development/Languages/Python
 Url:            https://github.com/atomgomba/orangebox
