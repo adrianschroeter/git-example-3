@@ -1,5 +1,5 @@
 #
-# spec file for package python-wakeonlan
+# spec file for package python-orangebox
 #
 # Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
 #
@@ -37,6 +37,8 @@ BuildArch:      noarch
 %python_subpackages
 
 %description
+Betaflight blackbox recording tooling. It provides a CLI tool and
+also python modules.
 
 %prep
 %setup -q -n orangebox -c -T
@@ -62,5 +64,5 @@ export CFLAGS="%{optflags}"
 %files %{python_files}
 %python_alternative %_bindir/bb2csv
 %python_alternative %_bindir/bbsplit
-%{python_sitelib}/*
+%{python_sitelib}/orangebox*
 
